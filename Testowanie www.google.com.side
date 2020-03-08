@@ -1,0 +1,368 @@
+{
+  "id": "8d66bf78-e4e5-4468-b238-756cdb58440a",
+  "version": "2.0",
+  "name": "Testowanie www.google.com",
+  "url": "https://www.google.com/",
+  "tests": [{
+    "id": "223a741c-68c0-488c-92ed-e4cc736a6377",
+    "name": "Wyszukiwarka - pozytywny",
+    "commands": [{
+      "id": "f37f12d9-556e-4b00-bd5b-286be6f70403",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7d90e95-2006-4bbe-866f-72b00b97e7fd",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "151a98c4-882a-4687-a26f-89ccd602ed66",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "google"
+    }, {
+      "id": "d3a7b4a3-ee79-4023-b045-4704e6ffe18f",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "4adba895-d187-4fa8-81fb-6a0b243e4fd1",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1dbabb2a-93af-4f6f-bab0-605ab387c498",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "931aa4d7-004a-4a07-82b3-31f5ff45b3fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=center:nth-child(1) > .gNO89b",
+      "targets": [
+        ["css=center:nth-child(1) > .gNO89b", "css:finder"],
+        ["xpath=(//input[@name='btnK'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div[3]/center/input", "xpath:idRelative"],
+        ["xpath=//div[3]/center/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "10a41c6d-2b82-481e-bb37-8567c4b1032b",
+    "name": "Wyszukiwarka - negatywny",
+    "commands": [{
+      "id": "9b4395da-8f66-4ef7-8fa6-4169bcd5d1f0",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad2b6c5d-bda7-4654-a0a2-66309ecbef2d",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47478a9e-3ed7-4eaa-bb01-66edd02aa005",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1w1jh301313k13k"
+    }, {
+      "id": "15bf29df-c968-4678-8a4a-4ada7e0ce8fc",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "36644b67-c10a-422d-a48c-a8d547a93e77",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c50a7af6-d004-4d86-a3d4-826076888d67",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5de8169-cf5a-4990-8721-3ae1a04a1d67",
+      "comment": "",
+      "command": "click",
+      "target": "css=center:nth-child(1) > .gNO89b",
+      "targets": [
+        ["css=center:nth-child(1) > .gNO89b", "css:finder"],
+        ["xpath=(//input[@name='btnK'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div[3]/center/input", "xpath:idRelative"],
+        ["xpath=//div[3]/center/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54e65cca-5ce7-43a6-8f97-0f320c2b25ba",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(1)",
+      "targets": [
+        ["css=p:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='topstuff']/div/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Podana fraza - 1w1jh301313k13k - nie została odnaleziona.')]", "xpath:innerText"]
+      ],
+      "value": "Podana fraza - 1w1jh301313k13k - nie została odnaleziona."
+    }]
+  }, {
+    "id": "15a40597-172c-4e34-9d21-8f99a7be00b0",
+    "name": "Wirtualna klawiatura - wyszukiwanie",
+    "commands": [{
+      "id": "491aeef0-aa1d-4cf1-b27f-b1120da61b82",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ed1a69b-1acd-4e52-a681-12ef5e8beb13",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1696x1026",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55935636-be4a-4c37-a4b7-127703d7ba36",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hOoLGe",
+      "targets": [
+        ["css=.hOoLGe", "css:finder"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[3]/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6895d269-4d69-430d-9651-50d5e42f62b3",
+      "comment": "",
+      "command": "click",
+      "target": "//button[@id='K71']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f40c4b0-aaef-4f17-ad97-9bfbf811553f",
+      "comment": "",
+      "command": "click",
+      "target": "//button[@id='K79']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e96be30d-ba0c-45cf-9def-ed21a7525f00",
+      "comment": "",
+      "command": "click",
+      "target": "//button[@id='K79']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a327a66-4a9c-4e84-b069-99d240c71723",
+      "comment": "",
+      "command": "click",
+      "target": "//button[@id='K71']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d7fcba9-622e-47e8-8d7a-58cc76be800f",
+      "comment": "",
+      "command": "click",
+      "target": "//button[@id='K76']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab56d59c-bacf-4ede-936c-f67e26c9525e",
+      "comment": "",
+      "command": "click",
+      "target": "//button[@id='K69']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e1e8fdf-f5a3-49e8-88a5-0bbf551cbe58",
+      "comment": "",
+      "command": "click",
+      "target": "//div[@class='FPdoLc tfB0Bf']//input[@name='btnK']",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d18c3fd2-4e2f-4ee0-ba6c-b7acb924f7bb",
+    "name": "Wirtualna klawiatura - klawisze",
+    "commands": [{
+      "id": "ca4d0f50-65da-4579-9b67-a892f39478d8",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e58aa3aa-8a91-4147-81d9-900753ee6c40",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1696x1026",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "60da9f4c-49f6-424f-ba3a-1b1b4503fe42",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hOoLGe",
+      "targets": [
+        ["css=.hOoLGe", "css:finder"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[3]/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89f1b95b-2519-4173-a7d8-15e46319dc53",
+      "comment": "",
+      "command": "click",
+      "target": "//div[4]//button[1]//span[1]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4afc4121-03f8-4646-9735-7ce7d44248d4",
+      "comment": "",
+      "command": "click",
+      "target": "//button[@id='K71']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "232f1f55-ae7d-41a8-bd0c-b01c3d8d7cf6",
+      "comment": "",
+      "command": "click",
+      "target": "//div[5]//button[1]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5bca6c9d-55dd-4596-8aef-aceb6fd348d7",
+      "comment": "",
+      "command": "click",
+      "target": "//button[@id='K69']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b81286c-d562-458e-b839-bfdde28152b4",
+      "comment": "",
+      "command": "click",
+      "target": "//button[@id='K20']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff5dfbd8-b7ff-4766-8769-4fc0ff56dccb",
+      "comment": "",
+      "command": "click",
+      "target": "//button[@id='K8']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1517730f-b3ad-474f-b3af-9c726d2e90bb",
+      "comment": "",
+      "command": "click",
+      "target": "//div[4]//button[12]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2014dbbb-7651-42b5-9862-71024699ebd5",
+      "comment": "",
+      "command": "click",
+      "target": "//div[@class='FPdoLc tfB0Bf']//input[@name='btnK']",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "45d1f7cb-114d-4c53-a61c-5a685109443a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["223a741c-68c0-488c-92ed-e4cc736a6377"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}

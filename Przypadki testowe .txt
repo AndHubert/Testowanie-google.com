@@ -1,0 +1,55 @@
+..::: Testowanie www.google.com :::..
+
+_Środowisko_
+
+Przeglądarka Google Chrome - Wersja 80.0.3987.132 (Oficjalna wersja) (64-bitowa)
+System operacyjy - Microsoft Windows 10 Pro Wersja 10.0.18363 Kompilacja 18363
+
+Test Case no.1
+
+Wyszukiwanie - pozytywny
+
+Kroki:
+
+1) Idź do https://www.google.com.
+1) Wyświetla się strona główna google.com.
+2) Kliknij w pole wyszukiwania.
+2) Kursor jest aktywny. 
+3) Wpisz dowolny test i kliknij przycick "Szukaj w Google".
+3) Wyświetlają się wątki zawierające wpisaną frazę. 
+
+Test Case no.2
+
+Wyszukiwanie - negatywny
+
+Kroki:
+
+1) Idź do https://www.google.com.
+1) Wyświetla się strona główna google.com.
+2) Kliknij w pole wyszukiwania.
+2) Kursor jest aktywny.
+3) Wpisz ciąg kilka przypadkowych liter,cyfr i kliknij przycick "Szukaj w Google".
+3) Wyświetlają się komunikat "Podana fraza - "wpisany test" - niezostała znaleziona."
+
+Test Case no.3
+
+Witualna klawiatura - wyszukiwanie
+
+1) Idź do https://www.google.com.
+1) Wyświetla się strona główna google.com.
+2) Kliknij w logo klawiatury zlokalizowane z prawej strony wyszukiwarki.
+2) Wyświetla się wirtualna klawiatura 
+3) Wpisz frazę przy pomocy wirtualnej klawiatury i wybierz "Szukaj w Google".
+3) Wyświetlają się wątki zawierające wpisaną frazę.
+
+Test Case no.4
+
+Wirtualna klawiatura - klawisze
+
+1) Idź do https://www.google.com.
+1) Wyświetla się strona główna google.com.
+2) Kliknij w logo klawiatury zlokalizowane z prawej strony wyszukiwarki.
+2) Wyświetla się wirtualna klawiatura 
+3) Klinij przycisk Shift (G) / Ctrl+Alt (ę) / Backspace i wyszukaj
+3) Wyświetlają się wątki zawierające wpisaną frazę.
+
