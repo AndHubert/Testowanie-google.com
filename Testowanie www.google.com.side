@@ -354,6 +354,71 @@
       "targets": [],
       "value": ""
     }]
+  }, {
+    "id": "edc079bb-42b5-41e5-80f9-e4d3579fe2eb",
+    "name": "Mikrofon wyszukiwarki - pozytywny",
+    "commands": [{
+      "id": "aa00ff90-0076-4df4-9b7c-23bb9daa2ee9",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "028ffa26-a2fb-4c8c-b1c7-0e6861de5a10",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1696x1026",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9fe198cc-534b-4976-b84e-72b9b82f3ce7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.HPVvwb",
+      "targets": [
+        ["css=.HPVvwb", "css:finder"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[3]/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2692ab8c-60f4-4bb7-a6ee-288acf7a40d1",
+      "comment": "",
+      "command": "info",
+      "target": "Powiedz wyszukiwaną frazę do mikrofonu",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "2337cd04-35f2-4043-9750-523150df10c6",
+    "name": "Mikrofon wyszukiwarki - negatywny",
+    "commands": [{
+      "id": "c83c9623-7bf3-4c23-92ae-5d372bdb5eaf",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad3eb013-9f2e-4035-84a2-5bb6b5065836",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1696x1026",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64c64c11-ccac-4516-9120-f99ec0b30d69",
+      "comment": "",
+      "command": "click",
+      "target": "css=.HPVvwb",
+      "targets": [
+        ["css=.HPVvwb", "css:finder"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[3]/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "45d1f7cb-114d-4c53-a61c-5a685109443a",

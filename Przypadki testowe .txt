@@ -5,7 +5,7 @@ _Środowisko_
 Przeglądarka Google Chrome - Wersja 80.0.3987.132 (Oficjalna wersja) (64-bitowa)
 System operacyjy - Microsoft Windows 10 Pro Wersja 10.0.18363 Kompilacja 18363
 
-Test Case no.1
+Test Case nr.1
 
 Wyszukiwanie - pozytywny
 
@@ -18,7 +18,7 @@ Kroki:
 3) Wpisz dowolny test i kliknij przycick "Szukaj w Google".
 3) Wyświetlają się wątki zawierające wpisaną frazę. 
 
-Test Case no.2
+Test Case nr.2
 
 Wyszukiwanie - negatywny
 
@@ -28,10 +28,10 @@ Kroki:
 1) Wyświetla się strona główna google.com.
 2) Kliknij w pole wyszukiwania.
 2) Kursor jest aktywny.
-3) Wpisz ciąg kilka przypadkowych liter,cyfr i kliknij przycick "Szukaj w Google".
-3) Wyświetlają się komunikat "Podana fraza - "wpisany test" - niezostała znaleziona."
+3) Wpisz ciąg kilku przypadkowych liter,cyfr i kliknij przycick "Szukaj w Google".
+3) Wyświetla się komunikat "Podana fraza - "wpisany test" - niezostała znaleziona."
 
-Test Case no.3
+Test Case nr.3
 
 Witualna klawiatura - wyszukiwanie
 
@@ -42,7 +42,7 @@ Witualna klawiatura - wyszukiwanie
 3) Wpisz frazę przy pomocy wirtualnej klawiatury i wybierz "Szukaj w Google".
 3) Wyświetlają się wątki zawierające wpisaną frazę.
 
-Test Case no.4
+Test Case nr.4
 
 Wirtualna klawiatura - klawisze
 
@@ -52,4 +52,30 @@ Wirtualna klawiatura - klawisze
 2) Wyświetla się wirtualna klawiatura 
 3) Klinij przycisk Shift (G) / Ctrl+Alt (ę) / Backspace i wyszukaj
 3) Wyświetlają się wątki zawierające wpisaną frazę.
+
+Test Case nr.5
+
+Mikrofon w wyszukiwarce - pozytywny (podłączony mikrofon)
+
+1) Idź do https://www.google.com.
+1) Wyświetla się strona główna google.com.
+2) Kliknij na logo mikrofonu zlokalizowanego z prawej strony wyszukiwarki
+2) Wyświetla się komunikat "Mów teraz" oraz logo mikrofonu.
+3) Powiedz do mikrofonu szukaną frazę.
+3) Wyświetlają się wątki związane z wyszukiwaną frazą.
+
+Test Case nr.6
+
+Mikrofon w wyszukiwarce - negatywny (odłączony mikrofon)
+
+1) Idź do https://www.google.com.
+1) Wyświetla się strona główna google.com.
+2) Kliknij na logo mikrofonu zlokalizowanego z prawej strony wyszukiwarki
+2) Wyświetla się komunikat " Wyszukiwanie głosowe zostało wyłączone "
+
+
+
+
+
+
 
