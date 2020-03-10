@@ -5,7 +5,7 @@
   "url": "https://www.google.com/",
   "tests": [{
     "id": "223a741c-68c0-488c-92ed-e4cc736a6377",
-    "name": "Wyszukiwarka - pozytywny",
+    "name": "TC1 Wyszukiwarka - pozytywny",
     "commands": [{
       "id": "f37f12d9-556e-4b00-bd5b-286be6f70403",
       "comment": "",
@@ -93,7 +93,7 @@
     }]
   }, {
     "id": "10a41c6d-2b82-481e-bb37-8567c4b1032b",
-    "name": "Wyszukiwarka - negatywny",
+    "name": "TC2 Wyszukiwarka - negatywny",
     "commands": [{
       "id": "9b4395da-8f66-4ef7-8fa6-4169bcd5d1f0",
       "comment": "",
@@ -193,7 +193,7 @@
     }]
   }, {
     "id": "15a40597-172c-4e34-9d21-8f99a7be00b0",
-    "name": "Wirtualna klawiatura - wyszukiwanie",
+    "name": "TC3 Wirtualna klawiatura - wyszukiwanie",
     "commands": [{
       "id": "491aeef0-aa1d-4cf1-b27f-b1120da61b82",
       "comment": "",
@@ -271,7 +271,7 @@
     }]
   }, {
     "id": "d18c3fd2-4e2f-4ee0-ba6c-b7acb924f7bb",
-    "name": "Wirtualna klawiatura - klawisze",
+    "name": "TC4 Wirtualna klawiatura - klawisze",
     "commands": [{
       "id": "ca4d0f50-65da-4579-9b67-a892f39478d8",
       "comment": "",
@@ -356,7 +356,7 @@
     }]
   }, {
     "id": "edc079bb-42b5-41e5-80f9-e4d3579fe2eb",
-    "name": "Mikrofon wyszukiwarki - pozytywny",
+    "name": "TC5 Mikrofon wyszukiwarki - pozytywny",
     "commands": [{
       "id": "aa00ff90-0076-4df4-9b7c-23bb9daa2ee9",
       "comment": "",
@@ -392,7 +392,7 @@
     }]
   }, {
     "id": "2337cd04-35f2-4043-9750-523150df10c6",
-    "name": "Mikrofon wyszukiwarki - negatywny",
+    "name": "TC6 Mikrofon wyszukiwarki - negatywny",
     "commands": [{
       "id": "c83c9623-7bf3-4c23-92ae-5d372bdb5eaf",
       "comment": "",
@@ -416,6 +416,105 @@
         ["css=.HPVvwb", "css:finder"],
         ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[3]/div[2]/span", "xpath:idRelative"],
         ["xpath=//div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f0c72f1e-0815-4f7c-9b42-60c28ae40c6e",
+    "name": "TC7 Wyszukiwarka - przyciski - Szczęśliwy traf",
+    "commands": [{
+      "id": "96a377be-319b-4a87-a953-f77a306ffd84",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0f38d665-2ce9-4455-b9e8-1dae45a4cf86",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1696x1026",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a03b666-968e-4efe-b370-76e5f14793ad",
+      "comment": "",
+      "command": "click",
+      "target": "css=center:nth-child(1) > .RNmpXc",
+      "targets": [
+        ["css=center:nth-child(1) > .RNmpXc", "css:finder"],
+        ["xpath=(//input[@name='btnI'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div[3]/center/input[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/center/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "813dd837-7db8-459e-8e0d-572ebb1b99b7",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e8fa853-f654-4323-8199-78de568257ec",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a99c0c53-1cfb-472d-abaf-2cd413c4d81b",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a90e1a4b-ba71-481c-bd4b-f8b7f3fe7baf",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "github"
+    }, {
+      "id": "f1b6757d-9711-4c3d-9652-3b68beadd7e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tsf > div:nth-child(2)",
+      "targets": [
+        ["css=#tsf > div:nth-child(2)", "css:finder"],
+        ["xpath=//form[@id='tsf']/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f459c23-b455-4813-9843-f247e6435959",
+      "comment": "",
+      "command": "click",
+      "target": "css=center:nth-child(1) > .RNmpXc",
+      "targets": [
+        ["css=center:nth-child(1) > .RNmpXc", "css:finder"],
+        ["xpath=(//input[@name='btnI'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div[3]/center/input[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/center/input[2]", "xpath:position"]
       ],
       "value": ""
     }]
