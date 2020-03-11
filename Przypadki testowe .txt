@@ -86,6 +86,18 @@ Wyszukiwarka - przyciski - Szczęśliwy traf
 4) Wpisz w wyszukiwarce frazę którą chcesz wyszukać i wciśnij przycisk "Szczęśliwy traf".
 4) Wyświetla się strona zawierająca szukaną frazę która znalazła się na pierwszym miejscu na liście wyszukiwania 
 
+Test Case nr.8
+
+Menu górne - logowanie Gmail- pozytywne
+
+1) Idź do https://www.google.com.
+1) Wyświetla się strona główna google.com.
+2) Na stronie głównej kliknij na "Gmail"
+2) Wyświetla się formularz logowanie do Gmaila
+3) Wypełnij pole "Adres e-mail lub telefon" kliknij "Dalej" (komenda nr.7 wpisz swój e-mail w Value)
+3) Wyświetla się formularz logowanie z polem na hasło
+4) Wypełnij pole "Wpisz hasło" i kliknij  "Dalej" (komenda nr.9 wpisz swóje hasło w Value)
+4) Użytkownik zostaje zalogowany 
 
 
 
