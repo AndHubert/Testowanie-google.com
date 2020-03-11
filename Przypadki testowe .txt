@@ -96,7 +96,7 @@ Menu górne - logowanie Gmail- pozytywne
 2) Wyświetla się formularz logowanie do Gmaila
 3) Wypełnij pole "Adres e-mail lub telefon" kliknij "Dalej" (komenda nr.7 wpisz swój e-mail w Value)
 3) Wyświetla się formularz logowanie z polem na hasło
-4) Wypełnij pole "Wpisz hasło" i kliknij  "Dalej" (komenda nr.9 wpisz swóje hasło w Value)
+4) Wypełnij pole "Wpisz hasło" i kliknij  "Dalej" (komenda nr.9 wpisz swoje hasło w Value)
 4) Użytkownik zostaje zalogowany 
 
 
