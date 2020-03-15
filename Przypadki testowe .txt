@@ -94,10 +94,50 @@ Menu górne - logowanie Gmail- pozytywne
 1) Wyświetla się strona główna google.com.
 2) Na stronie głównej kliknij na "Gmail"
 2) Wyświetla się formularz logowanie do Gmaila
-3) Wypełnij pole "Adres e-mail lub telefon" kliknij "Dalej" (komenda nr.7 wpisz swój e-mail w Value)
+3) Wypełnij pole "Adres e-mail lub telefon" kliknij "Dalej" (komenda nr.5 wpisz swój e-mail w Value)
 3) Wyświetla się formularz logowanie z polem na hasło
-4) Wypełnij pole "Wpisz hasło" i kliknij  "Dalej" (komenda nr.9 wpisz swoje hasło w Value)
+4) Wypełnij pole "Wpisz hasło" i kliknij  "Dalej" (komenda nr.8 wpisz swoje hasło w Value)
 4) Użytkownik zostaje zalogowany 
+
+Test Case nr.9
+
+Menu górne - logowanie Gmail - negatywne 
+
+1) Idź do https://www.google.com.
+1) Wyświetla się strona główna google.com.
+2) Na stronie głównej kliknij na "Gmail"
+2) Wyświetla się formularz logowanie do Gmaila
+3) Wypełnij pole "Adres e-mail lub telefon" błędnym adresem e-mail:  
+
+   a) bez nazwy użytkownika(komenda nr.5 błędny adres e-mail w Value), 
+   b) bez "małpy"(komenda nr.7 błędny adres e-mail w Value) 
+   c) bez domeny (komenda nr.9 błędny adres e-mail w Value)
+   d) bez domeny najwyższego poziomu (komenda nr.11 błędny adres e-mail w Value)
+
+   po każdym przykładzie kliknij "Dalej"
+
+3) Obramowanie pola "Adres e-mail lub telefon" podświetla się na czerwono z komunikatem "Nie możemy znaleźć takiego konta Google".
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
