@@ -761,6 +761,111 @@
       ],
       "value": "nazwa@gmail"
     }]
+  }, {
+    "id": "b507e13a-16dc-4031-98d7-0968ef429f34",
+    "name": "TC10 Menu górne - logowanie Gmail -negatywny 2",
+    "commands": [{
+      "id": "8014b25e-475f-4e76-90ad-01dcd14af4c1",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "666fe330-7d7c-4ad9-b4c3-3c834892fc3d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1696x1026",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de322f65-2d16-44bc-a223-91270989f866",
+      "comment": "",
+      "command": "click",
+      "target": "id=gb_70",
+      "targets": [
+        ["id=gb_70", "id"],
+        ["linkText=Zaloguj się", "linkText"],
+        ["css=#gb_70", "css:finder"],
+        ["xpath=//a[contains(text(),'Zaloguj się')]", "xpath:link"],
+        ["xpath=//a[@id='gb_70']", "xpath:attributes"],
+        ["xpath=//div[@id='gbw']/div/div/div[2]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://accounts.google.com/ServiceLogin?hl=pl&passive=true&continue=https://www.google.com/')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Zaloguj się')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "87e5b4e3-87cb-44d6-aad0-bb616eec903f",
+      "comment": "",
+      "command": "click",
+      "target": "id=identifierId",
+      "targets": [
+        ["id=identifierId", "id"],
+        ["name=identifier", "name"],
+        ["css=#identifierId", "css:finder"],
+        ["xpath=//input[@id='identifierId']", "xpath:attributes"],
+        ["xpath=//div[@id='view_container']/div/div/div[2]/div/div/div/form/span/section/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e087a14d-ff00-46eb-b1d8-32267bb0b960",
+      "comment": "",
+      "command": "type",
+      "target": "id=identifierId",
+      "targets": [
+        ["id=identifierId", "id"],
+        ["name=identifier", "name"],
+        ["css=#identifierId", "css:finder"],
+        ["xpath=//input[@id='identifierId']", "xpath:attributes"],
+        ["xpath=//div[@id='view_container']/div/div/div[2]/div/div/div/form/span/section/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "andhubert89@gmail.com"
+    }, {
+      "id": "e2d22fad-defe-4a53-8c97-8a6ed1cb99b6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.RveJvd",
+      "targets": [
+        ["css=.RveJvd", "css:finder"],
+        ["xpath=//div[@id='identifierNext']/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45597c04-9d1a-4cb5-9932-ae1722e58393",
+      "comment": "",
+      "command": "click",
+      "target": "//div[@id='passwordNext']//div[@class='ZFr60d CeoRYc']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ff0be46-be86-4499-8654-1bb8e1c6d7a6",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.I0VJ4d .whsOnd", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='password']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "hasło"
+    }, {
+      "id": "ee5e270b-c409-43f5-8d62-7fbf464a4bac",
+      "comment": "",
+      "command": "click",
+      "target": "css=#passwordNext .RveJvd",
+      "targets": [
+        ["css=#passwordNext .RveJvd", "css:finder"],
+        ["xpath=//div[@id='passwordNext']/span/span", "xpath:idRelative"],
+        ["xpath=//div/div/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "45d1f7cb-114d-4c53-a61c-5a685109443a",

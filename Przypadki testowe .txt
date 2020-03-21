@@ -118,9 +118,19 @@ Menu górne - logowanie Gmail - negatywne
 
 3) Obramowanie pola "Adres e-mail lub telefon" podświetla się na czerwono z komunikatem "Nie możemy znaleźć takiego konta Google".
 
+Test Case nr.10
 
+Menu górne logowanie - negatywne 2
 
-
+1) Idź do https://www.google.com.
+1) Wyświetla się strona główna google.com.
+2) Na stronie głównej kliknij na "Gmail"
+2) Wyświetla się formularz logowanie do Gmaila
+3) Wypełnij pole "Adres e-mail lub telefon" kliknij "Dalej" (komenda nr.5 wpisz swój e-mail w Value)
+3) Wyświetla się formularz logowanie z polem na hasło.
+4) Wypełnij pole "Wpisz hasło" błędnymi danymi i kliknij "Dalej"
+4) Wyświetla się pole "Wpisz hasło" z czerwoną ramką a pod nią komunikat na czerwono
+   "Nieprawidłowe hasło.Spróbuj jeszcze raz lub kliknij "Nie pamiętam hasła", by je zresetować."
 
 
 
