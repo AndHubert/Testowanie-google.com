@@ -132,6 +132,24 @@ Menu górne logowanie - negatywne 2
 4) Wyświetla się pole "Wpisz hasło" z czerwoną ramką a pod nią komunikat na czerwono
    "Nieprawidłowe hasło.Spróbuj jeszcze raz lub kliknij "Nie pamiętam hasła", by je zresetować."
 
+Test Case nr.11
+
+Przyciski formularza logowania 
+
+1) Idź do https://www.google.com.
+1) Wyświetla się strona główna google.com.
+2) Na stronie głównej kliknij na "Gmail"
+2) Wyświetla się formularz logowanie do Gmaila
+3) W formularzu logowania kliknij w lewym dolnym narożniku na język "polski" i wybierz inny język.
+3) Wszystkie dane formularza wyświetlają się w wybranym języku.
+4) Wybierz ponownie język polski
+4) Wszystkie dane formularza wyświetlają się w wybranym języku.
+5) W formularzu logowania kliknij w prawym dolnym narożniku na "Pomoc".
+5) Wyświetla się nowe okno "Konto Google - Pomoc"
+6) Zamknij okno i kliknij w prawym dolnym narożniku "Prywatność".
+6) Wyświetla się nowe okno "Prywatność i warunki".
+7) Zamknij okno i kliknij w prawym dolnym narożniku "Warunki".
+7) Wyświetla się nowe okno "Prywatność i warunki".
 
 
 

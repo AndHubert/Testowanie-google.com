@@ -866,6 +866,197 @@
       ],
       "value": ""
     }]
+  }, {
+    "id": "dcaef525-8ee7-4068-b7fd-6fb89f3bb4ae",
+    "name": "TC11 Przyciski w formularzu logowania ",
+    "commands": [{
+      "id": "8d564c99-1f41-48cc-b2d6-dd82c927d5e4",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "806476a2-90e6-47c6-8605-02ad8de4208d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1680x1010",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc2c9e11-3269-4e0b-af8c-8e468f73c12a",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@id='gb_70']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "976e9f10-2643-4b68-a93d-929a3e7080bc",
+      "comment": "",
+      "command": "click",
+      "target": "//div[@class='TquXA']",
+      "targets": [
+        ["id=gb_70", "id"],
+        ["linkText=Zaloguj się", "linkText"],
+        ["css=#gb_70", "css:finder"],
+        ["xpath=//a[contains(text(),'Zaloguj się')]", "xpath:link"],
+        ["xpath=//a[@id='gb_70']", "xpath:attributes"],
+        ["xpath=//div[@id='gbw']/div/div/div[2]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://accounts.google.com/ServiceLogin?hl=pl&passive=true&continue=https://www.google.com/')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Zaloguj się')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7569139-2b58-4e9d-8168-873c8649bcf5",
+      "comment": "",
+      "command": "click",
+      "target": "//div[@class='OA0qNb ncFHed']//span[@class='vRMGwf oJeWuf'][contains(text(),'Indonesia')]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "faf45362-cf71-464a-ae25-152dca234114",
+      "comment": "",
+      "command": "click",
+      "target": "//div[@class='TquXA']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c321ab74-dad6-46b5-a562-d8098053fb1e",
+      "comment": "",
+      "command": "click",
+      "target": "//div[@class='OA0qNb ncFHed']//div[29]",
+      "targets": [
+        ["css=.OA0qNb > .KKjvXb", "css:finder"],
+        ["xpath=//div[@id='lang-chooser']/div[2]/div[29]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[29]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24330f36-a4cd-4324-8b28-2c09adb1a822",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Pomoc",
+      "targets": [
+        ["linkText=Pomoc", "linkText"],
+        ["css=li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Pomoc')]", "xpath:link"],
+        ["xpath=//div[@id='initialView']/footer/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://support.google.com/accounts?hl=pl')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Pomoc')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5926",
+      "windowTimeout": 2000
+    }, {
+      "id": "8104f129-529f-43d1-ad4d-e479ba7875d7",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c95380d1-7758-4cae-97e4-30efeb065966",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5926}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03b6c3ca-d233-42b3-a723-6927e19aa652",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d1138afd-6869-4e92-9805-40c247c20d3f",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6901026-4b14-4661-ba0c-644f8931f906",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Prywatność",
+      "targets": [
+        ["linkText=Prywatność", "linkText"],
+        ["css=li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Prywatność')]", "xpath:link"],
+        ["xpath=//div[@id='initialView']/footer/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://accounts.google.com/TOS?loc=PL&hl=pl&privacy=true')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Prywatność')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6027",
+      "windowTimeout": 2000
+    }, {
+      "id": "bb44a769-83a1-408e-87c2-bd2c9108cc62",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6027}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0dfeb9ce-8842-4059-800b-7d349c07b05c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7c81b733-2cef-4e63-be21-ae5ec81d7b18",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e938356f-dc1e-4570-a8c6-51c862269be6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Warunki",
+      "targets": [
+        ["linkText=Warunki", "linkText"],
+        ["css=li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Warunki')]", "xpath:link"],
+        ["xpath=//div[@id='initialView']/footer/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://accounts.google.com/TOS?loc=PL&hl=pl')])[2]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Warunki')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2980",
+      "windowTimeout": 2000
+    }, {
+      "id": "585d5b2c-36db-42dc-8a90-f3d4ec528443",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2980}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a27c453-395b-40a8-8c15-bf9e36a6f932",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1f99a88c-6be7-40f5-93bf-95188d516438",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "45d1f7cb-114d-4c53-a61c-5a685109443a",
