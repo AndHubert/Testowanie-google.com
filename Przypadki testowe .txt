@@ -134,7 +134,7 @@ Menu górne logowanie - negatywne 2
 
 Test Case nr.11
 
-Przyciski formularza logowania 
+Przyciski w formularzu logowania 
 
 1) Idź do https://www.google.com.
 1) Wyświetla się strona główna google.com.
@@ -152,8 +152,24 @@ Przyciski formularza logowania
 7) Wyświetla się nowe okno "Prywatność i warunki".
 
 
+Test Case nr.12
 
+Formularz logowania odzyskiwanie adresu e-mail
 
+1) Idź do https://www.google.com.
+1) Wyświetla się strona główna google.com.
+2) Na stronie głównej kliknij na "Gmail"
+2) Wyświetla się formularz logowanie do Gmaila
+3) W formularzu logowania kliknij "Nie pamiętasz adresu?"
+3) Wyświetla się formularz odzyskiwania adresu e-mail.com
+4) Wpisz pomocniczy adres e-mail lub nr.telefonu i kliknij "Dalej"
+4) Wyświetla się formularz " Jak się nazywasz ?"
+5) Wpisz dane: imię i nazwisko do konta pomocniczego i kliknij "Dalej"
+5) Wyświetla się okno "Uzyskiwania kodu weryfikacyjnego" 
+6) Kliknij "Wyślij"
+6) Wyświetla się pole na kod weryfikacyjny przesłany na maila pomocniczego
+7) Wpisz kod weryfikacyjny i kliknij "Dalej"
+7) Wyświetla się okno "Wybierz konto" z podpowiedzią zapomnianego maila.
 
 
 
