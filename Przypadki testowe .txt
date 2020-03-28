@@ -195,7 +195,7 @@ Menu górne
 3) Kliknij ikonę aparatu.
 3) Otwiera się okno wyszukiwania obrazem.
 4) Wybierz zakładkę "Prześlij obraz" i kliknij na "Wybierz plik".
-4) Wyświetlają się wątki związane ze zdjęcie z adresu URL.
+4) Wyświetlają się wątki związane z przesłanym obrazem.
 
 
 
