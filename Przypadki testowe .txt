@@ -171,8 +171,31 @@ Formularz logowania odzyskiwanie adresu e-mail
 7) Wpisz kod weryfikacyjny i kliknij "Dalej"
 7) Wyświetla się okno "Wybierz konto" z podpowiedzią zapomnianego maila.
 
+Test Case nr.13
 
+Menu górne - Grafika
 
+1) Idź do https://www.google.com.
+1) Wyświetla się strona główna google.com.
+2) Na stronie głównej kliknij na "Grafika" w prawym górnym narożniku.
+2) Wyświetla się strona główna w większej rozdzielczości z dodatkową opcją wyszukiwania obrazem (ikona aparatu).
+3) Kliknij ikonę aparatu.
+3) Otwiera się okno wyszukiwania obrazem.
+4) Wybierz zakładkę "Wklej adres obrazu" i wklej adres URL zdjęcia kliknij "Wyszukiwanie obrazu".
+4) Wyświetlają się wątki związane ze zdjęcie z adresu URL.
+
+Test Case nr.14
+
+Menu górne 
+
+1) Idź do https://www.google.com.
+1) Wyświetla się strona główna google.com.
+2) Na stronie głównej kliknij na "Grafika" w prawym górnym narożniku.
+2) Wyświetla się strona główna w większej rozdzielczości z dodatkową opcją wyszukiwania obrazem (ikona aparatu).
+3) Kliknij ikonę aparatu.
+3) Otwiera się okno wyszukiwania obrazem.
+4) Wybierz zakładkę "Prześlij obraz" i kliknij na "Wybierz plik".
+4) Wyświetlają się wątki związane ze zdjęcie z adresu URL.
 
 
 

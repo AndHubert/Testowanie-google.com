@@ -1259,6 +1259,106 @@
       ],
       "value": ""
     }]
+  }, {
+    "id": "bc76f036-45f1-40bf-b139-dc77361724db",
+    "name": "TC13 Menu Górne - Grafika",
+    "commands": [{
+      "id": "8f2fa1ce-1305-42a6-ab65-cfb1ea1e8b16",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3b6fefd4-8978-4aa7-92a0-3191ae9e2b5c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1680x1010",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7716f142-4f27-4bac-a202-4b14fc105df8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Grafika",
+      "targets": [
+        ["linkText=Grafika", "linkText"],
+        ["css=.gb_h:nth-child(2) > .gb_g", "css:finder"],
+        ["xpath=//a[contains(text(),'Grafika')]", "xpath:link"],
+        ["xpath=//div[@id='gbw']/div/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.google.pl/imghp?hl=pl&tab=wi&ogbl')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Grafika')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "67319ff2-e189-4dec-9487-69fdd5590363",
+      "comment": "",
+      "command": "click",
+      "target": "css=.BwoPOe",
+      "targets": [
+        ["css=.BwoPOe", "css:finder"],
+        ["xpath=//div[@id='sbtc']/div/div[3]/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22f02d2f-033b-4e44-8c63-55768e824a0d",
+      "comment": "",
+      "command": "click",
+      "target": "id=cjyo4e",
+      "targets": [
+        ["id=cjyo4e", "id"],
+        ["css=#cjyo4e", "css:finder"],
+        ["xpath=//span[@id='cjyo4e']", "xpath:attributes"],
+        ["xpath=//div[@id='dRSWfb']/div/div/span", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Wklej adres obrazu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1abe72cd-2fb2-4788-8664-f7f1f13a7385",
+      "comment": "",
+      "command": "click",
+      "target": "id=Ycyxxc",
+      "targets": [
+        ["id=Ycyxxc", "id"],
+        ["name=image_url", "name"],
+        ["css=#Ycyxxc", "css:finder"],
+        ["xpath=//input[@id='Ycyxxc']", "xpath:attributes"],
+        ["xpath=//div[@id='dRSWfb']/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40587818-a6f4-4c37-993c-a5869bc56a50",
+      "comment": "",
+      "command": "type",
+      "target": "id=Ycyxxc",
+      "targets": [
+        ["id=Ycyxxc", "id"],
+        ["name=image_url", "name"],
+        ["css=#Ycyxxc", "css:finder"],
+        ["xpath=//input[@id='Ycyxxc']", "xpath:attributes"],
+        ["xpath=//div[@id='dRSWfb']/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Google_Images_2015_logo.svg/1200px-Google_Images_2015_logo.svg.png"
+    }, {
+      "id": "6488df31-43b9-4e7e-8cf7-df2057068d85",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=Ycyxxc",
+      "targets": [
+        ["id=Ycyxxc", "id"],
+        ["name=image_url", "name"],
+        ["css=#Ycyxxc", "css:finder"],
+        ["xpath=//input[@id='Ycyxxc']", "xpath:attributes"],
+        ["xpath=//div[@id='dRSWfb']/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
   }],
   "suites": [{
     "id": "45d1f7cb-114d-4c53-a61c-5a685109443a",
