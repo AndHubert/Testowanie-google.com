@@ -423,6 +423,13 @@
     "id": "f0c72f1e-0815-4f7c-9b42-60c28ae40c6e",
     "name": "TC7 Wyszukiwarka - przyciski - Szczęśliwy traf",
     "commands": [{
+      "id": "c8623f71-4c06-4380-8d41-f7ca38bf5061",
+      "comment": "",
+      "command": "store",
+      "target": "",
+      "targets": [],
+      "value": "phrase"
+    }, {
       "id": "96a377be-319b-4a87-a953-f77a306ffd84",
       "comment": "",
       "command": "open",
@@ -493,7 +500,7 @@
         ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
         ["xpath=//div[2]/input", "xpath:position"]
       ],
-      "value": "github"
+      "value": "${phrase}"
     }, {
       "id": "f1b6757d-9711-4c3d-9652-3b68beadd7e3",
       "comment": "",
@@ -519,114 +526,37 @@
       "value": ""
     }]
   }, {
-    "id": "78acc820-a448-413d-9014-0ed5f9680488",
-    "name": "TC8 Menu górne - logowanie Gmail - pozytywny",
-    "commands": [{
-      "id": "3907442f-50b9-4e3b-a6e8-5156a0a3e4a0",
-      "comment": "",
-      "command": "open",
-      "target": "https://www.google.com/",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "4815d309-fd08-40f1-bcb0-3da6bd3a8f00",
-      "comment": "",
-      "command": "setWindowSize",
-      "target": "1696x1026",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "18d8e13b-32ab-47bc-8ddd-36d758ae66ed",
-      "comment": "",
-      "command": "click",
-      "target": "id=gb_70",
-      "targets": [
-        ["id=gb_70", "id"],
-        ["linkText=Zaloguj się", "linkText"],
-        ["css=#gb_70", "css:finder"],
-        ["xpath=//a[contains(text(),'Zaloguj się')]", "xpath:link"],
-        ["xpath=//a[@id='gb_70']", "xpath:attributes"],
-        ["xpath=//div[@id='gbw']/div/div/div[2]/div[2]/div/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, 'https://accounts.google.com/ServiceLogin?hl=pl&passive=true&continue=https://www.google.com/')]", "xpath:href"],
-        ["xpath=//div[2]/div/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Zaloguj się')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "dbb5c832-9624-4105-a4e6-f9e1a854ef53",
-      "comment": "",
-      "command": "click",
-      "target": "id=identifierId",
-      "targets": [
-        ["id=identifierId", "id"],
-        ["name=identifier", "name"],
-        ["css=#identifierId", "css:finder"],
-        ["xpath=//input[@id='identifierId']", "xpath:attributes"],
-        ["xpath=//div[@id='view_container']/div/div/div[2]/div/div/div/form/span/section/div/div/div/div/div/div/div/input", "xpath:idRelative"],
-        ["xpath=//input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "088851c7-906f-45da-ba39-960be3094e62",
-      "comment": "",
-      "command": "type",
-      "target": "id=identifierId",
-      "targets": [
-        ["id=identifierId", "id"],
-        ["name=identifier", "name"],
-        ["css=#identifierId", "css:finder"],
-        ["xpath=//input[@id='identifierId']", "xpath:attributes"],
-        ["xpath=//div[@id='view_container']/div/div/div[2]/div/div/div/form/span/section/div/div/div/div/div/div/div/input", "xpath:idRelative"],
-        ["xpath=//input", "xpath:position"]
-      ],
-      "value": "nazwa@gmail.com"
-    }, {
-      "id": "04e68b88-c107-4c49-91a8-1820571d305a",
-      "comment": "",
-      "command": "click",
-      "target": "css=.RveJvd",
-      "targets": [
-        ["css=.RveJvd", "css:finder"],
-        ["xpath=//div[@id='identifierNext']/span/span", "xpath:idRelative"],
-        ["xpath=//span/span", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "da2f5ffc-8881-49f2-9512-1e3746f4c2ac",
-      "comment": "",
-      "command": "click",
-      "target": "//input[@name='password']",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "3d168ccb-18ae-4af0-8f80-6c8036c13f41",
-      "comment": "",
-      "command": "type",
-      "target": "name=password",
-      "targets": [
-        ["name=password", "name"],
-        ["css=.I0VJ4d .whsOnd", "css:finder"],
-        ["xpath=//input[@name='password']", "xpath:attributes"],
-        ["xpath=//div[@id='password']/div/div/div/input", "xpath:idRelative"],
-        ["xpath=//div/div/div/input", "xpath:position"]
-      ],
-      "value": "Hasło"
-    }, {
-      "id": "5ac9f07c-1bb8-47d8-9436-bc33aa7a7cd4",
-      "comment": "",
-      "command": "click",
-      "target": "css=#passwordNext .RveJvd",
-      "targets": [
-        ["css=#passwordNext .RveJvd", "css:finder"],
-        ["xpath=//div[@id='passwordNext']/span/span", "xpath:idRelative"],
-        ["xpath=//div/div/span/span", "xpath:position"]
-      ],
-      "value": ""
-    }]
-  }, {
     "id": "77cf3256-2738-45fa-93d8-66405ca9140e",
     "name": "TC9 Menu górne - logowanie Gmail - negatywny",
     "commands": [{
+      "id": "06fa69f7-9588-43c3-9615-859ec0ddb30d",
+      "comment": "",
+      "command": "store",
+      "target": "@gmail.com",
+      "targets": [],
+      "value": "user1"
+    }, {
+      "id": "abc27ef4-c5ef-45eb-8e94-aa1a099ca2c1",
+      "comment": "",
+      "command": "store",
+      "target": "nazwagmail.com",
+      "targets": [],
+      "value": "user2"
+    }, {
+      "id": "1717ac8a-89d8-457b-93d8-073939a5869f",
+      "comment": "",
+      "command": "store",
+      "target": "nazwa@.com",
+      "targets": [],
+      "value": "user3"
+    }, {
+      "id": "3454bcc0-5f79-4aaf-b660-a698327f6dcb",
+      "comment": "",
+      "command": "store",
+      "target": "nazwa@gmail",
+      "targets": [],
+      "value": "user4"
+    }, {
       "id": "8c56b42a-6bc0-4762-8c66-a64e3fdf960c",
       "comment": "",
       "command": "open",
@@ -684,7 +614,7 @@
         ["xpath=//div[@id='view_container']/div/div/div[2]/div/div/div/form/span/section/div/div/div/div/div/div/div/input", "xpath:idRelative"],
         ["xpath=//input", "xpath:position"]
       ],
-      "value": "@gmail.com"
+      "value": "${user1}"
     }, {
       "id": "58c1f989-b33a-4d8d-94ff-4ead5de1f53b",
       "comment": "",
@@ -709,7 +639,7 @@
         ["xpath=//div[@id='view_container']/div/div/div[2]/div/div/div/form/span/section/div/div/div/div/div/div/div/input", "xpath:idRelative"],
         ["xpath=//input", "xpath:position"]
       ],
-      "value": "nazwagmail.com"
+      "value": "${user2}"
     }, {
       "id": "91ef577a-9943-454c-b2f8-0f102f6f6d72",
       "comment": "",
@@ -734,7 +664,7 @@
         ["xpath=//div[@id='view_container']/div/div/div[2]/div/div/div/form/span/section/div/div/div/div/div/div/div/input", "xpath:idRelative"],
         ["xpath=//input", "xpath:position"]
       ],
-      "value": "nazwa@.com"
+      "value": "${user3}"
     }, {
       "id": "a5923f1c-fd7e-44fd-9f99-d6925171a47e",
       "comment": "",
@@ -759,12 +689,26 @@
         ["xpath=//div[@id='view_container']/div/div/div[2]/div/div/div/form/span/section/div/div/div/div/div/div/div/input", "xpath:idRelative"],
         ["xpath=//input", "xpath:position"]
       ],
-      "value": "nazwa@gmail"
+      "value": "${user4}"
     }]
   }, {
     "id": "b507e13a-16dc-4031-98d7-0968ef429f34",
     "name": "TC10 Menu górne - logowanie Gmail -negatywny 2",
     "commands": [{
+      "id": "1f1c420a-23da-47e3-8cf7-e5d8e1562ff6",
+      "comment": "",
+      "command": "store",
+      "target": "",
+      "targets": [],
+      "value": "user"
+    }, {
+      "id": "27f72909-0ecf-4615-bd81-0b835fbf3d2e",
+      "comment": "",
+      "command": "store",
+      "target": "",
+      "targets": [],
+      "value": "pass"
+    }, {
       "id": "8014b25e-475f-4e76-90ad-01dcd14af4c1",
       "comment": "",
       "command": "open",
@@ -822,7 +766,7 @@
         ["xpath=//div[@id='view_container']/div/div/div[2]/div/div/div/form/span/section/div/div/div/div/div/div/div/input", "xpath:idRelative"],
         ["xpath=//input", "xpath:position"]
       ],
-      "value": "andhubert89@gmail.com"
+      "value": "${user}"
     }, {
       "id": "e2d22fad-defe-4a53-8c97-8a6ed1cb99b6",
       "comment": "",
@@ -853,7 +797,7 @@
         ["xpath=//div[@id='password']/div/div/div/input", "xpath:idRelative"],
         ["xpath=//div/div/div/input", "xpath:position"]
       ],
-      "value": "hasło"
+      "value": "${pass}"
     }, {
       "id": "ee5e270b-c409-43f5-8d62-7fbf464a4bac",
       "comment": "",
@@ -1061,6 +1005,13 @@
     "id": "68120f3c-789f-42d6-8a47-26cfdb61a39b",
     "name": "TC12 Formularz logowania - odzyskiwanie hasła ",
     "commands": [{
+      "id": "ffe8e6be-4b74-4a4b-b9ea-cf60285b4a76",
+      "comment": "",
+      "command": "store",
+      "target": "",
+      "targets": [],
+      "value": "user"
+    }, {
       "id": "f78cf1f2-8125-4df9-97a1-a84928297c53",
       "comment": "",
       "command": "open",
@@ -1131,7 +1082,7 @@
         ["xpath=//div[@id='view_container']/div/div/div[2]/div/div/div/form/span/section/div/div/div/div/div/div/div/input", "xpath:idRelative"],
         ["xpath=//input", "xpath:position"]
       ],
-      "value": "andhubert89@gmail.com"
+      "value": "${user}"
     }, {
       "id": "25704265-ca34-4581-abf9-d7de4f42e73c",
       "comment": "",
@@ -1359,6 +1310,210 @@
       ],
       "value": "${KEY_ENTER}"
     }]
+  }, {
+    "id": "ff0ea543-fdc1-4096-829d-de83affc6bf0",
+    "name": "TC8 Menu górne - logowanie Gmail - pozytywny ",
+    "commands": [{
+      "id": "3b1d422e-5a0b-47b9-b4bf-273b2e959170",
+      "comment": "",
+      "command": "store",
+      "target": "",
+      "targets": [],
+      "value": "user"
+    }, {
+      "id": "c81a0fc5-25cb-48d6-a39b-6086062f93c9",
+      "comment": "",
+      "command": "store",
+      "target": "",
+      "targets": [],
+      "value": "pass"
+    }, {
+      "id": "e622a881-e097-4c66-b6b6-33d9ad6ac1ca",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "73c1ffe5-f304-42e1-84e2-05f34b722f7c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1696x1026",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b19a7697-b592-4543-8e3d-996076310ffd",
+      "comment": "",
+      "command": "click",
+      "target": "id=gb_70",
+      "targets": [
+        ["id=gb_70", "id"],
+        ["linkText=Zaloguj się", "linkText"],
+        ["css=#gb_70", "css:finder"],
+        ["xpath=//a[contains(text(),'Zaloguj się')]", "xpath:link"],
+        ["xpath=//a[@id='gb_70']", "xpath:attributes"],
+        ["xpath=//div[@id='gbw']/div/div/div[2]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://accounts.google.com/ServiceLogin?hl=pl&passive=true&continue=https://www.google.com/')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Zaloguj się')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "48f9390e-7771-4a96-abf2-06c3fdc3202f",
+      "comment": "",
+      "command": "click",
+      "target": "id=identifierId",
+      "targets": [
+        ["id=identifierId", "id"],
+        ["name=identifier", "name"],
+        ["css=#identifierId", "css:finder"],
+        ["xpath=//input[@id='identifierId']", "xpath:attributes"],
+        ["xpath=//div[@id='view_container']/div/div/div[2]/div/div/div/form/span/section/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c929f48-1b75-418b-ae7d-fcd2ee023a62",
+      "comment": "",
+      "command": "type",
+      "target": "id=identifierId",
+      "targets": [
+        ["id=identifierId", "id"],
+        ["name=identifier", "name"],
+        ["css=#identifierId", "css:finder"],
+        ["xpath=//input[@id='identifierId']", "xpath:attributes"],
+        ["xpath=//div[@id='view_container']/div/div/div[2]/div/div/div/form/span/section/div/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${user}"
+    }, {
+      "id": "0a2480dd-0f85-4072-82c7-00075f0772ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.RveJvd",
+      "targets": [
+        ["css=.RveJvd", "css:finder"],
+        ["xpath=//div[@id='identifierNext']/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a478741-035b-45ef-a2b4-8597bd25db3d",
+      "comment": "",
+      "command": "click",
+      "target": "//input[@name='password']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d159bc09-aa36-41f3-a3f9-11bb07563c68",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.I0VJ4d .whsOnd", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='password']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "${pass}"
+    }, {
+      "id": "5b006745-b76a-4b24-b023-926c9a6b3417",
+      "comment": "",
+      "command": "click",
+      "target": "css=#passwordNext .RveJvd",
+      "targets": [
+        ["css=#passwordNext .RveJvd", "css:finder"],
+        ["xpath=//div[@id='passwordNext']/span/span", "xpath:idRelative"],
+        ["xpath=//div/div/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "26e77136-e333-4dba-8720-3b3b432feef8",
+    "name": "TC15 Menu Górne - Grafika 2",
+    "commands": [{
+      "id": "e869532a-766d-4a7b-8929-44d0fa844660",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ffef2ce-b149-4006-b054-717f8ad8451a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Grafika",
+      "targets": [
+        ["linkText=Grafika", "linkText"],
+        ["css=.gb_h:nth-child(2) > .gb_g", "css:finder"],
+        ["xpath=//a[contains(text(),'Grafika')]", "xpath:link"],
+        ["xpath=//div[@id='gbw']/div/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.google.pl/imghp?hl=pl&tab=wi&ogbl')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Grafika')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "18352511-70b2-4eda-b017-952907b4a2e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.BwoPOe",
+      "targets": [
+        ["css=.BwoPOe", "css:finder"],
+        ["xpath=//div[@id='sbtc']/div/div[3]/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14004077-d4bb-4e60-b2d2-00cdcfcb43b2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Prześlij obraz",
+      "targets": [
+        ["linkText=Prześlij obraz", "linkText"],
+        ["css=.H4qWMc:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Prześlij obraz')]", "xpath:link"],
+        ["xpath=//a[@onclick='google.qb.ti(true);return false']", "xpath:attributes"],
+        ["xpath=//div[@id='dRSWfb']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//form/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Prześlij obraz')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d63762b-8afd-41d8-b4cf-0425267f642c",
+      "comment": "",
+      "command": "click",
+      "target": "id=awyMjb",
+      "targets": [
+        ["id=awyMjb", "id"],
+        ["name=encoded_image", "name"],
+        ["css=#awyMjb", "css:finder"],
+        ["xpath=//input[@id='awyMjb']", "xpath:attributes"],
+        ["xpath=//div[@id='kFWkgf']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a644a4e3-b266-45e5-a5d5-2bdd8ad8196d",
+      "comment": "",
+      "command": "type",
+      "target": "id=awyMjb",
+      "targets": [
+        ["id=awyMjb", "id"],
+        ["name=encoded_image", "name"],
+        ["css=#awyMjb", "css:finder"],
+        ["xpath=//input[@id='awyMjb']", "xpath:attributes"],
+        ["xpath=//div[@id='kFWkgf']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\Selenium .PNG"
+    }]
+  }, {
+    "id": "38f39cce-35a3-4077-8bf1-73ae65fe20bf",
+    "name": "TC14 Formularz logowanie - odzyskiwania hasła ",
+    "commands": []
   }],
   "suites": [{
     "id": "45d1f7cb-114d-4c53-a61c-5a685109443a",
